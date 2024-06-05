@@ -10,9 +10,10 @@ body{
     position:absolute;
     top:159px;
     left:950px;
+    
 }
 .text-about{
-    margin-top:250px;
+    margin-top:200px;
     margin-left:54px;
 }
 h3{
@@ -32,6 +33,7 @@ p{
     border-color:blue;
     border-radius:10px;
     transition:0.5s;
+    cursor:pointer;
     
 
 }
@@ -74,4 +76,13 @@ h2{
 }
 h4{
     text-align: end;
+}
+.HGA{
+    text-align:center;
+    color:coral;
+}
+.Our-history-text{
+    margin-top:100px;
+    text-align:center;
+    cursor:pointer;
 }
