@@ -1,0 +1,120 @@
+*{
+    font-family:sans-serif;
+}
+body{
+    margin:0px;
+    padding:0px;
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.middle-footer{
+    background-color:#d6d6d6;
+    height:400px;
+    width:400px;
+    align-items: center;
+    place-items: center;
+    border-radius:10px;
+    margin-left:auto;margin-right:auto;
+    margin-top:50px;
+}
+.top-title{
+    font-size:30px;
+    font-weight:600;
+    text-align: center;
+    margin-top:50px;
+    
+
+}
+.health-guard-style{
+    color:rgb(6, 6, 139)
+    
+}
+.login-header{
+    text-align:center;
+    font-size:30px;
+    font-weight:500;
+    color:#0a0c17;
+}
+.username{
+    padding:10px;
+    font-size:20px;
+    text-align: center;
+    color:white;
+    background-color:#a197ff;
+    margin-left:60px;
+    align-items: center;
+    border-radius:10px;
+    height:15px;
+
+}
+input::placeholder{
+    color:rgb(17, 17, 148);
+    margin-right:120px;
+}
+.remembertick-forgotpass{
+    display:flex;
+}
+.password{
+    padding:10px;
+    font-size:20px;
+    text-align:center;
+    color:white;
+    background-color:#a197ff;
+    margin-left:60px;
+    align-items:center;
+    border-radius:10px;
+    margin-top:20px;
+    height:15px;
+}
+.remember-me-tick{
+    margin-top:30px;
+    margin-left:20px;
+    color:black;
+}
+.forgot-password{
+    font-size:17px;
+    cursor:pointer;
+    color:black;
+    margin-left:250px;
+    transition:0.5s;
+    position:absolute;
+    margin-top:30px;
+}
+.forgot-password:hover{
+    color:blue;
+}
+.login-btn{
+    padding:17px;
+    margin-left:15px;
+    width:370px;
+    background-color:white;
+    border-radius:50px;
+    font-size:25px;
+    margin-top:30px;
+    cursor:pointer;
+    color:rgb(17, 17, 148);
+    border-style:none;
+
+}
+.login-btn:hover{
+    border-color:rgb(17, 17, 148);
+
+}
+.account-signup-quiz{
+    font-size:17px;
+    font-weight:300;
+    margin-left:70px;
+    margin-top:30px;
+    color:#0a0c17;
+}
+.register-style{
+
+    cursor:pointer;
+    transition:0.5s;
+
+}
+.register-style:hover{
+    color:blue;
+}

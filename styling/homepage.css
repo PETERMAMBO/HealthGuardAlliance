@@ -1,0 +1,505 @@
+*{
+    font-family:sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color:white;
+    padding:10px;
+    color:black;
+    height:40px;
+    
+}
+.header-menu1{
+    display:none;
+    
+}
+@media screen and (max-width:500px) {
+    .header-menu1{
+        
+        background-color: #6d6d6d;
+        height:100%;
+        margin-right:900px;
+        z-index: 1;
+        list-style-type: none;
+        position:absolute;
+        left:0px;
+        top:0px;
+        display: none;
+        padding:40px;
+        width:100px;
+        color:white;
+        z-index: 1;
+        transition:0.5s;
+        overflow-x: hidden;
+        cursor: pointer;
+        gap:15px;
+
+    }
+    .hga{
+        display:flex;
+        color:black;
+        position:absolute;
+        top:10px;
+    }
+    .login-signup-btn{
+        position:absolute;
+        top:0px;
+        right:50px;
+    }
+    .header-menu1:hover{
+        color:blue;
+        background-color: #818181;
+        box-shadow:#6d6d6d 8px 8px 8px 8px;
+        background-blend-mode: multiply(30px);
+    }
+    
+    
+    .header-menu{
+        visibility: collapse;
+    }
+    .hga{
+        margin-left:00px;
+    }
+    .footer-1{
+        
+
+    }
+    h3{ 
+        position:absolute;
+        top: 0px;
+        line-height: 1px;
+
+    
+    }
+    p{
+        position:absolute;
+        top:450px;
+    }
+    .signin-btn{
+        position:absolute;
+        top:520px;
+        left:180px;
+    }
+    .learn-more-btn{
+        position:absolute;
+        top:520px;
+        left:0px;
+    }
+    .text-paragraph{
+        display:flex;
+
+    }
+    h2{
+        line-height: 0px;
+        
+    }
+    .all-medical-blogs{
+        display:block;
+    }
+}
+.header-menu{
+    display:flex;
+    font-size:17px;
+    gap:30px;
+    list-style-type: none;
+    height:20px;
+    padding:0px;
+    cursor: pointer;
+
+}
+
+.login-signup-btn{
+    border-radius:25px;
+    font-size: 17px;
+    padding:10px;
+    background-color:#1c3760;
+    color:white;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.login-signup-btn:hover{
+    background-color: transparent;
+    color:black;
+}
+.footer-1{
+    background-color: #6d6d6d;
+    height:581px;
+    background:url(blur-hospital.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+h3{
+    margin-left: 32px;
+    margin-top: 238px;
+    font-weight: 800;
+    font-size:40px;
+    line-height:48.81px;
+    color:white;
+
+    
+}
+p{
+    margin-top:0px;
+    margin-left: 42px;
+    color:white;
+    font-weight: 700;
+    font-size: 12px;
+}
+.learn-more-btn{
+    margin-left:41px;
+    padding:10px;
+    font-weight: 700;
+    font-size:15px;
+    line-height:13.31px;
+    background-color: rgb(26, 26, 196);
+    border-color: rgb(26,26,196);
+    color:white;
+    border-radius:10px;
+    transition:0.;
+    margin-top:30px;
+
+}
+.learn-more-btn:hover{
+    background-color: transparent;
+}
+.signin-btn{
+    padding:10px;
+    font-weight: 700;
+    font-size:15px;
+    line-height:13.31px;
+    border-radius:10px;
+    color:white;
+    transition:0.5s;
+    background-color: transparent;
+    margin-left:10px;
+}
+.signin-btn:hover{
+    background-color: rgb(26, 26, 196);
+    border-color:rgb(26, 26, 196);
+}
+.text-paragraph{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    font-size:24px;
+    font-weight: 600;
+    margin-top:10px;
+    line-height: 25px;
+    margin-left:50px;
+}
+.about{
+    display:none;
+    margin-top:100px;
+
+}
+.emailnumber{
+    display:none;
+
+}
+img{
+    object-fit:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left:30px;
+    height:500px;
+}
+.text-medical-blog{
+    text-align: center;
+    padding:10px;
+    font-weight:600;
+    font-size: 24px;
+    align-items: center;
+    margin-top:100px;
+}
+.first-text-medical-blog{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size:17px;
+    font-weight:500px;
+    text-align: center;
+    justify-content: left;
+    margin-top:150px;
+    margin-left: 50px;
+
+    
+}
+  
+.second-text-medical-blog{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:17px;
+    font-weight:500px;
+    text-align:center;
+    justify-content: center;
+    position:absolute;
+    top:1590px;
+    margin-left: 550px;
+}
+.third-text-medical-blog{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    position:absolute;
+    top:1590px;
+    margin-left: 1050px;
+    text-align: center;
+
+
+}
+.first-blog-btn{
+    padding:10px;
+    font-size:17px;
+    margin-left:50px;
+    font-weight: 300;
+    border-radius:10px;
+    cursor:pointer;
+    background-color: transparent;
+    border-color: blue;
+    transition: 0.5s;
+}
+.first-blog-btn:hover{
+    background-color: blue;
+    color:white;
+}
+.second-blog-btn{
+    padding:10px;
+    font-size:17px;
+    border-radius:10px;
+    font-weight:300;
+    cursor:pointer;
+    background-color: transparent;
+    border-color:blue;
+    transition:0.5s;
+}
+.second-blog-btn:hover{
+    background-color:blue;
+    color:white;
+}
+.third-blog-btn{
+    padding:10px;
+    font-size:17px;
+    font-weight:300;
+    border-radius:10px;
+    cursor:pointer;
+    margin-right:50px;
+    background-color: transparent;
+    border-color:blue;
+    transition:0.5s;
+}
+.third-blog-btn:hover{
+    background-color: blue;
+    color:white;
+}
+.text-side-image{
+    margin-top:150px;
+    margin-left:50px;
+    font-weight:bolder;
+    font-size:20px;
+    
+}
+h5{
+    font-weight: 100;
+}
+h7{
+    font-weight:100;
+    line-height:30px;
+    font-size:15px;
+    
+}
+.text-side-image-btn{
+    padding:10px;
+    font-size:17px;
+    font-weight:300;
+    cursor:pointer;
+    border-radius:10px;
+    margin-top: 50px;
+    border-color:blue ;
+    background-color: transparent;
+    transition:0.5s;
+}
+.text-side-image-btn:hover{
+    background-color: blue;
+    color:white;
+}
+.communityCharity{
+    align-items: end;
+    margin-left:700px;
+    display: flex;
+    position:absolute;
+    top:1900px;
+    width:500px;
+
+}
+.FAQs{
+    margin-top:300px;
+    margin-left:100px;
+    display:block;
+}
+.text-under-faqs{
+    margin-bottom:0px;
+}
+h1{
+    margin-top:0px;
+}
+.btn-under-FAQs{
+    padding:10px;
+    border-radius:10px;
+    font-size:17px;
+    margin-top: 40px;
+    cursor:pointer;
+    border-style:solid;
+    background-color: transparent;
+    border-color:blue;
+    transition: 0.5s;
+}
+.btn-under-FAQs:hover{
+    background-color: blue;
+    color:white;
+}
+.text-contribute{
+    border-style:solid;
+    width:60%;
+    margin-left:500px;
+    border-width: 1px;
+    text-align: left;
+    padding:20px;
+}
+.text-contribute1{
+    border-style:solid;
+    width:60%;
+    margin-left:500px;
+    border-width:1px;
+    margin-top:20px;
+    padding:20px;
+}
+.text-contribute2{
+    border-style:solid;
+    width:60%;
+    margin-left:500px;
+    border-width:1px;
+    margin-top:20px;
+    padding:20px;
+}
+.round-profile{
+    background-color: #6d6d6d;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    margin-left:0px;
+    margin-bottom: 10px;
+    background: url(chairman.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.round-profile2{
+    background-color: #6d6d6d;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    margin-left:0px;
+    margin-bottom:10px;
+    background: url(assistant.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.round-profile3{
+    background-color: #6d6d6d;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    margin-left:0px;
+    margin-bottom:10px;
+    background: url(treasurer.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.round-profile4{
+    background-color: #6d6d6d;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    margin-left:0px;
+    margin-bottom: 10px;
+    background: url(legal\ advisor.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.meet-our-team{
+    margin-left:100px;
+    margin-top:100px;
+}
+.all-the-team-profile1{
+    margin-left:100px;
+    display:flex;
+    margin-top:50px;
+}
+.doctor-with-profile2{
+    margin-left:50px;
+}
+
+.doctor-with-profile3{
+    margin-left:50px;
+}
+.doctor-with-profile4{
+    margin-left:50px;
+}
+.bottom-footer{
+    margin-left:100px;
+    margin-top:100px;
+}
+.facebook-icon{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    background: url(facebook.svg);
+}
+.twitter-icon{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    background: url(twitter-svgrepo-com.svg);
+}
+.linkedin-icon{
+    height:25px;
+    width:25px;
+    background: url(linkedin-logo-svgrepo-com.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.youtube-icon{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    background:url(youtube-svgrepo-com.svg);
+}
+.social-media-icons{
+    display: flex;
+    gap:20px;
+}
+.Rights-reserved{
+    font-weight:300px;
+    font-size:17px;
+    margin-top:50px;
+}
+@media screen and (max-width:400px){
+    header{
+        
+    }
+    
+}
