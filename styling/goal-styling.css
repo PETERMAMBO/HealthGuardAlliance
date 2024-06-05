@@ -1,0 +1,42 @@
+.goal-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 30px;
+    align-items: center;
+
+}
+
+.tv-header {
+    margin-left: 10;
+    font-weight: bold;
+}
+
+.tv-body {
+    font-size: 17px;
+    margin-left: 50px;
+    font-weight: normal;
+}
+
+.tv-mission-image {
+    padding: 0px 50px 0px 50px;
+    margin-bottom: 100px;
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:600px){
+    .tv-header {
+        margin-left: 10;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .tv-body {
+        font-size: 15px;
+        margin-left: 50px;
+        font-weight: normal;
+    }
+
+}

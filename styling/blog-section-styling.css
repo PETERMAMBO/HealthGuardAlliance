@@ -1,0 +1,62 @@
+.tv-blog-section-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.blog-item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.tv-blog-image {
+    background-color: azure;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.blog-title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.blog-body {
+    text-align: center;
+    font-size: 15px;
+}
+
+.cta {
+    text-align: center;
+    font-size: 10px;
+}
+
+@media screen and (max-width:600px){
+    
+    .blog-title {
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+
+    }
+    
+    .blog-body {
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .cta {
+        text-align: center;
+        font-size: 10px;
+    }
+
+}
