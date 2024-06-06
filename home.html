@@ -42,26 +42,47 @@
 
         <nav class="tv-nav-container">
 
-            <ul class="tv-nav-links" >
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About Us</a></li>
+            <ul style="cursor:pointer" class="tv-nav-links" >
+                <li>Home</li>
+                <li>Articles</li>
+                <li>Publish</li>
+                <li id="Events">Events</li>
+                <li onclick="GoToAbout()">About Us</li>
             </ul>
     
         </nav>
+        
 
-        <button class="cta">Login</button>
+        <button onclick="GoToPage()" class="cta">Login</button>
+        <script>
+            function GoToPage(){
+                window.location.href='login.html'
+            }
+        </script>
+         <script>
+            document.getElementById('Events').addEventListener('click', function() {
+                window.location.href = 'events.html';
+            });
+            </script>
+        
 
     </header>
     
     <nav class="tv-side-nav-container">
 
-        <ul class="tv-nav-links" >
+        <ul style="cursor:pointer"class="tv-nav-links" >
             <li id="btnCloseSideNav"><a href="#"><img src="vectors/cancel-vector.svg" height="20px" width=" 20px"></a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About Us</a></li>
+            <li>Home</li>
+            <li>Articles</li>
+            <li>Publish</li>
+            <li>Events</li>
+            <li onclick="GoToAbout()">About Us</li>
         </ul>
+        <script>
+            function GoToAbout(){
+                window.location.href='aboutUs.html'
+            }
+        </script>
 
     </nav>
 
@@ -82,9 +103,14 @@
 
 
                     <div class="tv-button-container">
-                        <button class="btn-learn-more">Learn more</button>
-                        <button class="btn-sign-up">Sign Up</button>
+                        <button onclick="GoToAbout()" class="btn-learn-more">Learn more</button>
+                        <button onclick="GoToSignup()" class="btn-sign-up">Sign Up</button>
                     </div>
+                    <script>
+                        function GoToSignup(){
+                            window.location.href='signup.html'
+                        }
+                    </script>
             
                 </div>
         
@@ -95,7 +121,7 @@
             Charity, Research, and
             Consultation</h3>
         <p class="tv-body" style="white-space: pre-line;">Transforming Lives Through Charity, Research, and
-             ConsultationHealth Guard Alliance is dedicated to making a
+             Consultation. Health Guard Alliance is dedicated to making a
              positive impact through our initiatives in charity, medical research, and consultation. We believe in transforming lives,
              advancing medical knowledge, and providing expert 
              guidance to those in need. Join us in our mission to create a healthier and happier world.</p>
@@ -157,7 +183,8 @@
             
             </div>
 
-            <button class="what-we-do-cta">Learn More</button>
+            <button class="what-we-do-cta">Charity</button>
+           
 
         </div>
 
@@ -169,9 +196,15 @@
         <div class="faq-header-container">
             <h2 class="tv-faq-header">Frequently asked questions</h2>
             <p class="tv-faq-subheader">Find answers to common questions about Health Guard Alliance's operations and how you can contribute.</p>
-            <button class="faq-cta-btn">Contact Us</button>
+            <button onclick="ScrollToFooter()" class="faq-cta-btn">Contact Us</button>
 
         </div>
+        <script>
+            function ScrollToFooter(){
+                const footer=document.querySelector('footer');
+                footer.scrollIntoView({behavior:'smooth'});
+            }
+        </script>
 
         <div class="faqs-container">
             <div class="faq-item">
@@ -250,13 +283,26 @@
         </div>
     </div>
 
-    <footer class="footer-container">
+    <footer>
 
         <img src="images/logo.svg">
             <h1 class="tv-address">Address</h1>
-            <h1 class="tv-location">Kisii Kiogoro</h1>
+            <h1 class="tv-location">Kisii Central, Kisii</h1>
 
-            <h1 class="tv-contact">Contact</h1>
+            <h1 class="tv-contact">+254746370069</h1>
+            <h1 style="cursor:pointer" onclick="GoToTerms()">Terms and Conditions</h1>
+            <h1 style="cursor:pointer"id="privacyPolicy">Privacy Policy</h1>
+            <script>
+                function GoToTerms(){
+                    window.location.href='inside.html'
+                }
+                
+            </script>
+            <script>
+            document.getElementById('privacyPolicy').addEventListener('click', function() {
+                window.location.href = 'inside.html';
+            });
+            </script>
 
             <div >
                 <img src="">

@@ -1,6 +1,7 @@
 .tv-hero-section {
     height: 100vh;
     position: relative;
+    width:100%;
 }
 
 .tv-hero-section .tv-hero-bg {

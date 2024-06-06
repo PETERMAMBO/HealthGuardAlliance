@@ -1,120 +1,100 @@
-*{
-    font-family:sans-serif;
-}
 body{
     margin:0px;
     padding:0px;
-    background-color: #ffffff;
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-fit: cover;
+    box-sizing: border-box;
+    width:100%;
+    height:100vh;
+
 }
-.middle-footer{
-    background-color:#d6d6d6;
-    height:400px;
-    width:400px;
-    align-items: center;
-    place-items: center;
-    border-radius:10px;
-    margin-left:auto;margin-right:auto;
-    margin-top:50px;
+.left-footer{
+    background-color: rgb(202, 61, 61);
+    width:50%;
+    margin-top: 0px;
+    position:absolute;
+    top:0px;
+    height:100vh;
+    
 }
 .top-title{
-    font-size:30px;
-    font-weight:600;
-    text-align: center;
-    margin-top:50px;
-    
+    padding:0px;
+    margin-left:50px;
 
 }
-.health-guard-style{
-    color:rgb(6, 6, 139)
-    
+h2{
+    font-size:35px;
 }
-.login-header{
-    text-align:center;
-    font-size:30px;
-    font-weight:500;
-    color:#0a0c17;
+h4{
+    font-size:35px;
 }
-.username{
+p{
+    font-size:17px;
+}
+.username-input{
+    font-size:17px;
+    margin-left:0px;
+    width:400px;
     padding:10px;
-    font-size:20px;
-    text-align: center;
-    color:white;
-    background-color:#a197ff;
-    margin-left:60px;
-    align-items: center;
     border-radius:10px;
-    height:15px;
-
 }
 input::placeholder{
-    color:rgb(17, 17, 148);
-    margin-right:120px;
+    color:blue;
+    margin-left:150px;
 }
-.remembertick-forgotpass{
-    display:flex;
-}
-.password{
+.password-input{
+    font-size:17px;
+    margin-left:0px;
+    width:400px;
     padding:10px;
-    font-size:20px;
-    text-align:center;
-    color:white;
-    background-color:#a197ff;
-    margin-left:60px;
-    align-items:center;
     border-radius:10px;
     margin-top:20px;
-    height:15px;
-}
-.remember-me-tick{
-    margin-top:30px;
-    margin-left:20px;
-    color:black;
-}
-.forgot-password{
-    font-size:17px;
-    cursor:pointer;
-    color:black;
-    margin-left:250px;
-    transition:0.5s;
-    position:absolute;
-    margin-top:30px;
-}
-.forgot-password:hover{
-    color:blue;
 }
 .login-btn{
-    padding:17px;
-    margin-left:15px;
-    width:370px;
-    background-color:white;
-    border-radius:50px;
-    font-size:25px;
-    margin-top:30px;
-    cursor:pointer;
-    color:rgb(17, 17, 148);
-    border-style:none;
+    width: 200px;
+    margin-top:20px;
+    margin-left:0px;
+    background-color:transparent;
+    border-radius: 10px;
+    padding:10px;
+    font-size: 17px;
+    border-color: blue;
+    transition:0.5s;
+
 
 }
 .login-btn:hover{
-    border-color:rgb(17, 17, 148);
-
+    color:white;
+    background-color: blue;
+    
 }
-.account-signup-quiz{
+h5{
     font-size:17px;
-    font-weight:300;
-    margin-left:70px;
-    margin-top:30px;
-    color:#0a0c17;
-}
-.register-style{
-
     cursor:pointer;
-    transition:0.5s;
+}
+h6{
+    font-size:17px;
+}
+.signup-text{
+    margin-top:0px;
+    cursor:pointer;
+}
+.right-footer{
+   position:absolute;
+   top:0px;
+   left:683px;
+   width:50%;
+   background-color: #6d6d6d;
+   height:100%;
+}
+h1{
+    color:white;
+    text-align: center;
+    margin-top: 200px;
 
 }
-.register-style:hover{
-    color:blue;
+.right-footer-container h6{
+    color:white;
+    font-size:17px;
+    font-weight:400;
+    text-align: center;
 }
+

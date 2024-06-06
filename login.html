@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="styling/login.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     </head>
     <body>
+        <div class="left-footer">
+            <div class="top-title">
+                <h2>
+                    Health Guard Alliance<br>
+                    Good To See You Again!
+                </h2>
+                
+                <p>
+                    At Health Guard Alliance, we are dedicated to improving lives through<br>
+                    charity, medical research, and consultation. Join us in making<br>
+                    a difference today.
+
+                </p>
+                <input id="userName"class="username-input" type="text" placeholder="Username" required>
+                <input id="passWord" class="password-input" type="password" placeholder="Password" required>
+                <button class="login-btn">
+                    login
+                </button>
+                <h5>
+                    Whoops I forgot my password
+                </h5>
+                <h6 class="signup-text" id="signUp">sign up?</h6>
+            </div>
+
+        </div>
         
-        <div class="top-title">
-            <span class="health-guard-style">Health Guard</span> Alliance
-
-        </div>
-        <div class="middle-footer">
-            <div class="login-header">
-                Login
-            </div>
-            <input class="username" type="email" placeholder="Email">
-            <input class="password" type="password" placeholder="Password">
-            <div class="remembertick-forgotpass">
-            <form class="remember-me-tick">
-            <label for="remeber">Remember me</label>
-            <input type="checkbox" name="remember" id="remember">
-            </form>
-            <div class="forgot-password">
-                Forgot password?
-
-            </div>
-            </div>
-            <button id="loginBtn" class="login-btn">
-                Login
-
-            </button>
-            <!--<script>
-                document.getElementById('loginBtn').addEventListener('click', function() {
-                    window.location.href = 'inside.html';
-                });
-            </script>-->
-            <div class="account-signup-quiz">
-                Dont have an account?<span id="signUp" class="register-style"> Sign up</span>
-
-            </div>
-
-        </div>
+       
         <script>
             document.getElementById('signUp').addEventListener('click', function() {
                 window.location.href = 'signup.html';
             });
         </script>
+        <div class="right-footer-container">
+            <div class="right-footer">
+                <h1>
+                    Hello There
+                </h1>
+                <h6>
+                    At Health Guard Alliance we strive to provide<br>
+                    free health care to the community and provide<br>
+                    consultation services 
+                </h6>
+           
+
+            </div>
+            
+        </div>
 
     </body>
 

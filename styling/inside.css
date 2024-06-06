@@ -1,13 +1,12 @@
 body{
     padding:0px;
     margin:0px;
-    background-color:#a197ff;
-    font-family:sans-serif;
-    background: url(privacy\ background.jpg);
+    background: url();
     background-size:cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    scroll-behavior: smooth;
 }
 .header-plus-logo{
     color:blue;

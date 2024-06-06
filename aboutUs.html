@@ -5,12 +5,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
-        <div class="HGA">
+        <div onclick="GOToPage()"class="HGA">
             <h1>
             Health Guard Alliance
             </h1>
 
         </div>
+        <script>
+            function GOToPage(){
+                window.location.href='home.html'
+            }
+        </script>
     
     <div class="text-about">
 
@@ -23,10 +28,18 @@
             a difference today.
 
         </p>
-        <button class="contact-us-btn">
+        <button onclick="ScrollToFooter()" class="contact-us-btn">
             Contact us
 
         </button>
+        <script>
+            function ScrollToFooter(){
+                const footer=document.querySelector('footer');
+                footer.scrollIntoView({behavior:'smooth'});
+
+            }
+
+        </script>
 
     </div>
     <div class="side-image-left">
@@ -46,17 +59,77 @@
             a difference today.<br>
 
         </h4>
-        <button class="join-us-btn">
+        <button onclick="GoToPage()" class="join-us-btn">
             Join the Team
 
         </button>
+        <script>
+            function GoToPage(){
+                window.location.href='signup.html'
+            }
+        </script>
     </div>
     <div class="Our-history-text">
-        <h1 id="homePage">Our History</h1>
+        <h1>Our History</h1>
         <h5>
+            HISTORY OF HEALTH GUARD ALLIANCE<br>
+            The inception of the Health Guard Alliance can be traced back to a vision of compassionate<br>
+            care and the empowerment of lives. On December 15, 2023, Edwin Omondi, our current chairman,<br>
+            was inspired by a common idea that resonated deeply with many: the need to foster<br>
+            compassion and enhance the well-being of our community. This shared vision laid the foundation<br>
+            for what would soon become a transformative force in the lives of many.<br>
+            Recognizing the power of unity and collective action, we decided to formalize our efforts by<br>
+            forming an alliance. Thus, the Health Guard Alliance was born, symbolizing our commitment to<br>
+            health and empowerment. The enthusiasm and dedication of our members were palpable, and<br>
+            by January 2024, we welcomed our first batch of new members.<br>
+            From its inception, the Health Guard Alliance has made significant strides in uplifting and<br>
+            empowering the community, with a particular focus on educational institutions. Our first major<br>
+            initiative took us to Comenius Education Centre, a school that played a pivotal role in nurturing<br>
+            one of our own members. It was here that we began our journey of giving back. We engaged<br>
+            with the pupils, offering encouragement and emphasizing the importance of education. In<br>
+            addition, we provided extensive health education, underscoring the critical connection between<br>
+            health and learning.<br>
+            Since then, the Health Guard Alliance has continued to flourish, touching lives and fostering a<br>
+            spirit of compassion and empowerment in every endeavor. Our efforts extend beyond mere<br>
+            health education; we strive to instill a sense of hope and ambition in the hearts of those we<br>
+            reach, ensuring that our impact is both profound and lasting.<br>
+            As we look to the future, the Health Guard Alliance remains steadfast in our mission to<br>
+            empower lives and foster a compassionate community. With the unwavering support of our<br>
+            members and the leadership of Chairman Edwin Omondi, we are confident that our journey has<br>
+            only just begun, and the best is yet to come.<br>
+
 
         </h5>
     </div>
+    <footer>
+        <h6>
+            Logo
+            
+        </h6>
+        <h6>
+            Kisii Central, Kisii
+        </h6>
+        <h6>
+            +254746370069
+        </h6>
+        <h6>
+            Facebook, Twitter, Phone
+        </h6>
+        <div class="social-icons">
+            <img src="Frame 101.svg">
+
+        </div>
+        <div class="bottom-line">
+            <img src="Line 5.svg" width="100%">
+
+        </div>
+        <div class="bottom-text">
+            2024 Health Guard. All Rights Reserved
+
+        </div>
+        
+
+    </footer>
     <script>
         
     </script>

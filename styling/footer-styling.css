@@ -1,4 +1,4 @@
-.footer-container {
+ footer{
     padding-left: 25px;
     margin-top: 50px;
     padding-bottom: 25px;
@@ -6,7 +6,7 @@
     color: white;
 }
 
-.footer-container h1{
+ h1{
     font-weight: normal;
     margin-top: 10px;
     font-size: medium;

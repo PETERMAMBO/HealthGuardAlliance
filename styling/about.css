@@ -58,6 +58,7 @@ p{
 h2{
     font-size:40px;
     font-weight:800;
+    text-align: end;
 
 }
 .join-us-btn{
@@ -79,10 +80,29 @@ h4{
 }
 .HGA{
     text-align:center;
-    color:coral;
+    color:blue;
+    
+    
 }
 .Our-history-text{
     margin-top:100px;
     text-align:center;
-    cursor:pointer;
+}
+h5{
+    text-align: center;
+    font-size:17px;
+    color:black;
+    font-family:sans-serif;
+    font-weight:300;
+}
+h1{
+    font-size:40px;
+    font-weight:800;
+}
+footer{
+    margin-left:0px;
+    margin-top:100px;
+    background-color: black;
+    color:white;
+    width:100%;
 }
