@@ -1,0 +1,81 @@
+.tv-what-we-do-section-header {
+    font-size: 20px;
+
+}
+
+.tv-what-we-do-section-sub-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tv-what-we-do-section-body {
+    font-size: 17px;
+}
+
+.tv-point-image {
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+}
+
+.point-item {
+    display: flex;
+    margin-top: 8px;
+}
+
+.point-body {
+    font-size: 12px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+
+
+.what-we-do-section {
+    margin-left: 16px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.what-we-do-image {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+    border-radius: 8px;
+    margin: 30px ;
+}
+
+.what-we-do-cta {
+    margin-top: 30px;
+}
+
+.point-container {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+
+@media screen and (max-width:700px){
+    
+    .tv-what-we-do-section-header {
+        font-size: 15px;
+    
+    }
+
+    .tv-what-we-do-section-sub-header {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .tv-what-we-do-section-body {
+        font-size: medium;
+    }
+
+    .what-we-do-image {
+        display: none;
+    }
+
+}

@@ -1,0 +1,17 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:url(privacy\ background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text-history{
+    text-align: center;
+    margin-top:0px;
+    color:white;
+    font-size:20px;
+    font-weight:400;
+    
+}

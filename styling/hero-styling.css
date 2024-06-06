@@ -1,0 +1,64 @@
+.tv-hero-section {
+    height: 100vh;
+    position: relative;
+    width:100%;
+}
+
+.tv-hero-section .tv-hero-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #6D6D6D; 
+}
+
+.tv-welcome-text-layout {
+    position: absolute; 
+    top: 50%; 
+    left: 10%;
+    transform: translate(-10%, -50%);
+    color: white; 
+}
+
+div h3 {
+    font-size: 45px; 
+    color: black;
+    font-weight: bolder;
+}
+
+div p {
+    font-size: 25px; 
+    font-weight: normal;
+    margin-top: 20px;
+    color: black;
+}
+
+.tv-button-container {
+    margin-top: 40px;
+}
+
+.btn-sign-up {
+    background-color: transparent;
+    border-width: 2px;
+    color: black;
+    border-style: solid; /* Corrected property name */
+    border-color: black;
+}
+
+@media screen and (max-width:700px){
+    .tv-welcome-text {
+        font-size: 25px;
+    }
+
+    .tv-hero-body {
+        font-size: 15px;
+    }
+    
+    .tv-welcome-text-layout {
+        margin-left: 15px;
+    }
+
+}
+
+
+
+

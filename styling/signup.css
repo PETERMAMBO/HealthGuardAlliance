@@ -1,0 +1,180 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: url(signup\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    
+
+}
+.middle-signup-footer{
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+    height:1200px;
+    background-color:white;
+    margin-top:50px;
+    
+}
+h4{
+    text-align:center;
+    margin-top:0px;
+    padding:40px;
+    color:blue;
+    font-size:17px;
+    font-weight:300;
+}
+.top-title-HGA{
+    font-weight:bolder;
+    font-size:40px;
+    color:rgb(25, 25, 175);
+    text-align:center;
+    
+}
+.indicate-field-required{
+    margin-left:60px;
+    font-size:17px;
+    color:#0a0c17;
+}
+input::placeholder{
+    color:blue;
+
+}
+.firstname{
+    padding:10px;
+    border-radius:10px;
+    font-size:17px;
+    background-color:white;
+    color:#0a0c17;
+    margin-left:20px;
+    width:500px;
+    border-width:1px;
+    margin-top:30px;
+    border-color:blue;
+}
+.middlename{
+    padding:10px;
+    border-radius:10px;
+    font-size:17px;
+    background-color:white;
+    color:#0a0c17;
+    margin-left:20px;
+    width:500px;
+    border-width:1px;
+    margin-top:30px;
+    border-color:blue;
+}
+.lastname{
+    padding:10px;
+    border-radius:10px;
+    font-size:17px;
+    background-color:white;
+    color:#0a0c17;
+    margin-left:20px;
+    width:500px;
+    border-width:1px;
+    margin-top:30px;
+    border-color:blue;
+}
+.date-of-birth{
+    margin-left:60px;
+    font-size:17px;
+    color:#0a0c17;
+    margin-top:30px;
+}
+.month{
+    margin-left:20px;
+    display:block;
+    color:blue;
+    margin-top:30px;
+}
+.monthinput{
+    padding:10px;
+    border-radius:10px;
+    font-size:17px;
+    border-color:blue;
+    color:black;
+}
+.date{
+    margin-left:50px;
+    border-radius:10px;
+    padding:10px;
+    border-color:blue;
+    color:#0a0c17;
+}
+h6{
+    color:black;
+}
+.submit-btn{
+    padding:10px;
+    border-radius:10px;
+    border-color:10px;
+    color:#0a0c17;
+    font-size:17px;
+}
+.email-input{
+    padding:10px;
+    border-radius:10px;
+    border-color:blue;
+    color:#0a0c17;
+    font-size:17px;
+    width:400px;
+}
+.password{
+    padding:10px;
+    border-radius:10px;
+    border-color:blue;
+    color:#0a0c17;
+    font-size:17px;
+    width:400px;
+    margin-left:50px;
+    margin-top:10px;
+
+}
+.confirm-password{
+    padding:10px;
+    border-radius:10px;
+    border-color:blue;
+    color:#0a0c17;
+    font-size:17px;
+    width:400px;
+    margin-left:50px;
+    margin-top:30px;
+}
+.text-above-password{
+    margin-left:60px;
+}
+.number-details{
+    margin-left:60px;
+}
+.phone-number{
+    padding:10px;
+    border-radius:10px;
+    border-color:blue;
+    color:#0a0c17;
+    font-size:17px;
+    width:200px;
+    margin-left:60px;
+    margin-top:30px;
+}
+.conditions-privacy-tick{
+    margin-left:40px;
+    font-size:17px;
+    margin-top:40px;
+}
+.go-back-homepage{
+    margin-top:30px;
+    margin-left:0px;
+    font-weight:500;
+    color:rgb(33, 33, 151);
+    text-align:center;
+    cursor:pointer;
+}
+@media screen and( max-width:500px){
+    .go-back-homepage{
+    
+    }
+    
+}

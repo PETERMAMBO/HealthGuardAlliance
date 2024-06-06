@@ -1,0 +1,109 @@
+
+h2{
+    text-align:center;
+    font-size:50px;
+    font-weight:600;
+    margin-top: 0px;
+    background-color:rgb(163, 163, 20);
+    color:white;
+    height:200px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+
+
+}
+.round-profile{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    background-color: #FA8072;
+    margin-top:0px;
+    position: absolute;
+    left:450px;
+    top:160px;
+    
+    
+    
+}
+
+.profile-name{
+    padding:10px;
+    border-radius:10px;
+    position: absolute;
+    left:410px;
+    top:270px;
+
+}
+input::placeholder{
+    font-size:17px;
+}
+.description{
+    border-style: none;
+    width:400px;
+    position:absolute;
+    left:330px;
+    top:320px;
+}
+.edit-profile{
+    position:absolute;
+    top:350px;
+    left:350px;
+    padding:10px;
+    width:100px;
+    border-radius:10px;
+    color:white;
+    background-color:#FA8072;
+    cursor:pointer;
+    border-color: #FA8072;
+    transition:0.5s;
+}
+.edit-profile:hover{
+    background-color: transparent;
+    color:#FA8072;
+    border-color: #FA8072;
+}
+.settings-btn{
+    position:absolute;
+    top:350px;
+    padding:10px;
+    left:580px;
+    border-radius: 10px;
+    color:#FA8072;
+    background-color: transparent;
+    cursor:pointer;
+    border-color: #FA8072;
+    transition:0.5s;
+}
+.settings-btn:hover{
+    background-color: #FA8072;
+    color:white;
+}
+@media screen and (max-width:400px){
+   h2{
+    text-align: center;
+    color:white;
+   }
+   
+   .round-profile{
+    position:absolute;
+    top:160px;
+    left:120px;
+   }
+   .profile-name{
+    position:absolute;
+    top:270px;
+    left:80px;
+   }
+   .description{
+    left:20px;
+   }
+   .edit-profile{
+    left:35px;
+   }
+   .settings-btn{
+    left:230px;
+    top:350px;
+   }
+}

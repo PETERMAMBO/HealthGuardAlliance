@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+    font-size: x-large;
+}
+
+li, a {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: burlywood;
+    font-size:large;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 2%; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 0px 5px 4px rgba(53, 106, 167, 0.096);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.tv-company-name {
+    margin-left: 8px;
+
+}
+
+.tv-nav-links li {
+    display: inline-block;
+    padding: 0px 5px;
+    border-radius: 16px;
+    padding: 4px 16px;
+}
+
+.tv-nav-links li:hover {
+    background-color: rgb(54, 54, 109);
+    transition: .5s;
+}
+
+.tv-nav-links a:hover {
+    color: white;
+    transition: .5s;
+}
+
+
+@media screen and (max-width:700px){
+
+    .tv-company-name {
+        font-size: 15px;
+    }
+
+    .tv-nav-container {
+        display: none;
+    }
+
+}
+
+
+
+
+
+

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="homepage.css">
+        <script src="/homepage.js"></script>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <script src="homepage.js"></script>
+        <header>
+            <ul style="cursor: pointer; "id="smallHeader" class="hga">Health Guard Alliance</ul>
+
+           <ul class="header-menu">
+            
+            <li id="home">Home</li>
+            <li>Articles</li>
+            <li>Publish</li>
+            <li id="aboutUs">About us</li>
+            <li id="joinUs">Join us</li>
+           </ul>
+           
+           <ul id="headerMenu" class="header-menu1">
+            
+            <li id="home">Home</li>
+            <li>Articles</li>
+            <li>Publish</li>
+            <li id="aboutUs">About us</li>
+            <li id="joinUs">Join us</li>
+           </ul>                                           
+          
+        <div  id="about"class="about">
+            Lorem ipsum dolor sit amet,<br>
+            consectetur adipiscing elit. Ut vel massa<br>
+            non sapien tempor fringilla. Quisque aliquet<br>
+            lorem a risus convallis, sed vestibulum odio sagittis.<br>
+            Nullam eget est eu nulla suscipit ullamcorper. Donec sit<br>
+            amet magna id justo condimentum lacinia. Sed auctor nulla<br>
+            eget massa blandit, a eleifend quam pretium. Integer in ipsum<br>
+            eu leo feugiat fringilla eget ut erat. Nulla facilisi. Sed<br>
+            consectetur lectus nec sollicitudin vehicula. Maecenas vel augue<br>
+            sed risus pellentesque pharetra at nec ipsum. Nulla ac tellus eu tortor<br>
+            tincidunt ultrices.
+
+        </div>
+          <button id="login" class="login-signup-btn"><li>Login/Sign up</li></button>
+        </header>
+        <footer class="footer-1">
+            .
+            <h3>
+                Empowering Health<br>Through Compassion<br>and Innovation
+            </h3>
+            <p>
+                At Health Guard Alliance we are dedicated to improving lives through<br>
+                charity,medical research and consultation. Join us in making<br>
+                a difference today.
+            </p>
+            <button id="learn" class="learn-more-btn">Learn more</button>
+            <script>
+                document.getElementById('learn').addEventListener('click', function() {
+                    window.location.href = 'aboutUs.html';
+                });
+            </script>
+
+
+
+
+            <button id="signIn" class="signin-btn">Sign in</button>
+            <script>
+                document.getElementById('signIn').addEventListener('click', function() {
+                    window.location.href = 'login.html';
+                });
+            </script>
+        </footer>
+        <div class="text-paragraph">
+        <h2>
+            Transforming lives Through<br>
+            Charity, Research and<br>
+            Consultation
+        </h2>
+        <h4>
+            Transforming Lives Through Charity, Research, and<br>
+            ConsultationHealth Guard Alliance is dedicated to making a<br>
+            positive impact through our initiatives in charity, medical<br>
+            research, and consultation. We believe in transforming lives<br>
+            advancing medical knowledge, and providing expert<br>
+            guidance to those in need. Join us in our mission to create a<br>
+            healthier and happier world.
+        </h4>
+        </div>
+        
+        <img src="happyPeople.jpg"  height="50%" width="95%">
+        <div class="text-medical-blog">
+            Explore Our Medical Blog and Stay<br>
+            Informed
+
+        </div>   
+                
+        
+              <div class="first-text-medical-blog">
+            Get Expert Medical<br>
+            Consultation for Your Health<br>
+            Needs
+            <h6>
+                Get Expert Medical Consultation for Your<br>
+                Health Needs
+            </h6>
+            <button  class="first-blog-btn">
+                Connect
+            </button>
+            
+
+              </div>
+            <div class="second-text-medical-blog">
+            Know about our Medical<br>
+            research papers based<br>
+            on true facts 
+            
+            
+            <h6>
+                Get empowered and be on the know <br>
+                with new research
+            </h6>
+            <button class="second-blog-btn">
+                Research
+            </button>
+
+           </div>
+            <div class="third-text-medical-blog">
+            Get intel about<br>1
+            how the organisation<br>
+            began
+        
+            <h6>
+                Knowing our history will<br>
+                bring you close to us
+            </h6>
+            <button class="third-blog-btn" id="historyBtn">
+                History
+            </button>
+
+            </div>
+             
+            <script>
+                document.getElementById('historyBtn').addEventListener('click', function() {
+                    window.location.href = 'history.html';
+                });
+            </script>
+
+            <footer class="text-side-image">
+                Transforming Lives Through<br>
+                Innovative Medical<br>
+                Solutions
+                <h5>
+                    Transforming Lives Through Innovative Medical SolutionsAt Health Guard<br>
+                    Alliance, we are dedicated to making a positive impact in the healthcare industry.<br>
+                    Through our charity projects, groundbreaking medical research, and expert consultation,<br>
+                    we strive to improve the lives of individuals and communities.
+                </h5>
+                <h7>
+                    Supporting communities through impactful charity initiatives<br>
+                    Improving a better health care system<br>
+                    Helping the needy and empowering lives<br>
+                </h7>
+                <button id="charity"class="text-side-image-btn">
+                    Charity
+                </button>
+                <script>
+                    document.getElementById('charity').addEventListener('click', function() {
+                        window.location.href = 'donate.html';
+                    });
+                </script>
+        
+
+
+
+                <div class="communityCharity">
+                <img src="communityCharity.jpg" width="100%" height="40%">
+                </div>
+
+            </footer>
+            <div class="FAQs">
+                <h1>
+                    Frequently Asked<br>Questions
+                </h1>
+                <div class="text-under-faqs">
+                Find answers to common questions<br>
+                about Health Guard Alliance's operations<br>
+                and how you can contribute.
+                </div>
+                <button id="emailNumber" class="btn-under-FAQs">
+                    Contact
+
+                </button>
+                <script>
+                    document.getElementById('emailNumber').addEventListener('click', function() {
+                        var privacyPolicyParagraph = document.getElementById('mailNumber');
+                        if (privacyPolicyParagraph.style.display === 'none') {
+                            privacyPolicyParagraph.style.display = 'block'; // Show the paragraph
+                        } else {
+                            privacyPolicyParagraph.style.display = 'none'; // Hide the paragraph
+                        }
+                    });
+                    
+                </script>
+                <div id="mailNumber" class="emailnumber">
+                    <a href="Health Guard Alliance@gmail.com">Health Guard Alliance@gmail.com</a><br>
+                    <a href="0746370069">+254746370069</a>
+
+                </div>
+
+            </div>
+            <div class="text-contribute">
+                <h4>
+                    How can i Contribute
+                </h4>
+                You can contribute to Health Guard Alliance by making a donation, volunteering your time, or spreading<br>
+                awareness about our cause.
+
+            </div>
+            <div class="text-contribute1">
+                <h4>
+                    How can i find you
+                </h4>
+                You can find us by connecting with us through our official email or phonenumber on the website<br>
+                or visit us at our principal office which shall be located at kisii
+
+            </div>
+            <div class="text-contribute2">
+                <h4>
+                    How can i benefit
+                </h4>
+                You can benefit from Health Guard Alliance by making an impact to society, laerning from our articles<br>
+                and improve your healthcare on a personal level
+
+            </div>
+            <footer class="meet-our-team">
+                <h7>Empowering</h7>
+                <h1>
+                    Meet our team
+                </h1>
+                
+                    Get to know the experts behind Health Guard Alliance.
+                    </footer>
+
+                    <div class="all-the-team-profile1">
+                <div class="doctor-with-profile1">
+                    <div class="round-profile">
+
+                    </div>
+                    Edwin Omondi<br>
+                    Medical student<br>
+                    With over 20 years of experience in<br>
+                    medical research and patient care.
+                </div>
+                <div class="doctor-with-profile2">
+                    <div class="round-profile2">
+
+                    </div>
+                    Brighton Nyagwoka<br>
+                    Medical student<br>
+                    Certified Assistant chairman with<br> 
+                    specialized experience
+                    
+                    
+
+
+
+                </div>
+                <div class="doctor-with-profile3">
+                    <div class="round-profile3">
+
+                    </div>
+                    Trizah Nyarani<br>
+                    Medical Student<br>
+                    With over 20 years of experience in<br>
+                    medical research and patient care.
+
+                </div>
+                <div class="doctor-with-profile4">
+                    <div class="round-profile4">
+
+                    </div>
+                    Rev.Victor Obare<br>
+                    Medical Director<br>
+                    With over 20 years of experience in<br>
+                    medical research and patient care.
+
+
+                </div>
+                     </div>
+          <footer class="bottom-footer">
+            kisii central,KISII<br>
+            <h7>Contact</h7><br>
+            <h6>Facebook, phone, twitter</h6>
+              <div class="social-media-icons">
+            <div class="facebook-icon"></div>
+            <div class="twitter-icon"></div>
+            <div class="linkedin-icon"></div>
+            <div class="youtube-icon"></div>
+            
+
+            
+              </div>
+              <div class="Rights-reserved">
+                2024 Health Guard. All Rights Reserved. <span id="bothPrivacyTerms"style="cursor:pointer">Privacy policy. Terms and conditions</span><br>Wide Intelligent Data
+
+              </div>
+              <script>
+            document.getElementById('bothPrivacyTerms').addEventListener('click', function() {
+                window.location.href = 'inside.html';
+            });
+        </script>
+
+          </footer>
+          <script>
+            document.getElementById('login').addEventListener('click', function() {
+                window.location.href = 'login.html';
+            });
+        </script>
+
+           
+            
+        
+
+
+    </body>
+
+
+
+
+
+</html>

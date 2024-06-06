@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styling/signup.css">
+        <link rel="stylesheet" href="styling/general.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+
+
+    </head>
+    <body>
+        <p class="top-title-HGA">
+            <span style="color:rgb(192, 39, 39)">Health Guard</span> Alliance
+        </p>
+        <footer>
+            <div class="middle-signup-footer">
+
+            
+            <h4>
+                Self-enrollment is open to individuals aged 18 or older<br>
+                who are not current members of Health Guard Alliance and<br>
+                do not have access to its online portal. Through the Health<br>
+                Guard Alliance portal, you can view your medical information<br>
+                and connect with your healthcare team. Please complete the<br>
+                form below to begin the self-enrollment process.
+            </h4>
+            <div class="indicate-field-required">
+                <span style="color:red">*</span> Indicate a required field
+
+            </div>
+            <input type="text" placeholder="First Name" class="firstname" id="firstName" required>
+            <input type="text" placeholder="Middle Name" class="middlename" id="middleName" required>
+            <input type="text" placeholder="Last Name" class="lastname" id="lastName" required>
+            <div class="date-of-birth">
+                <span style="color:red">*</span> Date of birth
+
+            </div>
+               <form class="month">
+            <label for="birthmonth">Month</label>
+            <input type="month" class="monthinput" placeholder="Month">
+            <input type="number" class="date" min="0" max="31" placeholder="date" id="date">
+            <h6>Enter the Month, Year and Date</h6>
+            <form id="emailForm">
+                <label for="email">Email:</label>
+                <input class="email-input"type="email" id="email" name="email" required>
+                <!---<button class="submit-btn" type="submit">Submit</button>-->
+            </form>
+            
+             <script>
+            document.getElementById('emailForm').addEventListener('submit', function(event) {
+                var emailField = document.getElementById('email');
+                
+                if (!emailField.value) {
+                    alert('Please enter your email address.');
+                    emailField.focus();
+                    event.preventDefault(); // Prevents form from submitting
+                } else if (!validateEmail(emailField.value)) {
+                    alert('Please enter a valid email address.');
+                    emailField.focus();
+                    event.preventDefault();
+                }
+            });
+            
+            function validateEmail(email) {
+                // Basic email validation pattern
+                var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return re.test(email);
+            }
+            </script>
+            <div class="text-above-password">
+                <h6><span style="color:red">*</span>Enter password</h6>
+
+            </div>
+            <form>
+            <input type="password" class="password" placeholder="Enter Your Password" id="newPassword" required >
+            <input type="password" class="confirm-password" placeholder="Confirm Your Password" id="newPassword" required >
+            
+                
+                <input type="checkbox" id="togglePassword"> Show
+            </form>
+            <script>
+            document.getElementById('togglePassword').addEventListener('change', function () {
+                const passwordField = document.getElementById('newPassword');
+                if (this.checked) {
+                    passwordField.type = 'text';
+                } else {
+                    passwordField.type = 'password';
+                }
+            });
+            </script>
+            
+        
+
+
+
+
+            <div class="number-details">
+                <h6><span style="color:red">*</span>Enter Phone Number</h6>
+
+            </div>
+            <input type="tel" id="phoneNumber" class="phone-number" placeholder="Phone Number" required>
+            
+            <form class="conditions-privacy-tick">
+                <label for="conditions" id="terms-privacy">I have read terms and conditions</label>
+                <input type="checkbox" id="termsCheckbox" required>
+
+            </form>
+            <div id="goBack"class="go-back-homepage">
+                <h2><span style="color:rgb(192, 39, 39)">Health Guard</span> Alliance</h2>
+
+            </div>
+            <script>
+                document.getElementById('goBack').addEventListener('click', function() {
+                    window.location.href = 'home.html';
+                });
+            </script>
+             
+             
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            
+            
+
+        
+
+        </footer>
+
+
+    </body>
+
+
+
+
+</html>
