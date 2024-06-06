@@ -18,7 +18,7 @@ h2{
     border-radius: 50%;
     text-align: center;
     align-items: center;
-    background-color:red;
+    background-color: #FA8072;
     margin-top:0px;
     position: absolute;
     left:450px;
@@ -51,19 +51,43 @@ input::placeholder{
     top:350px;
     left:350px;
     padding:10px;
+    width:100px;
     border-radius:10px;
-    border-color:yellow;
     color:white;
-    
+    background-color:#FA8072;
+    cursor:pointer;
+    border-color: #FA8072;
+    transition:0.5s;
+}
+.edit-profile:hover{
+    background-color: transparent;
+    color:#FA8072;
+    border-color: #FA8072;
+}
+.settings-btn{
+    position:absolute;
+    top:350px;
+    padding:10px;
+    left:580px;
+    border-radius: 10px;
+    color:#FA8072;
+    background-color: transparent;
+    cursor:pointer;
+    border-color: #FA8072;
+    transition:0.5s;
+}
+.settings-btn:hover{
+    background-color: #FA8072;
+    color:white;
 }
 @media screen and (max-width:400px){
    h2{
     text-align: center;
     color:white;
    }
+   
    .round-profile{
     position:absolute;
-    background-color: black;
     top:160px;
     left:120px;
    }
@@ -71,5 +95,15 @@ input::placeholder{
     position:absolute;
     top:270px;
     left:80px;
+   }
+   .description{
+    left:20px;
+   }
+   .edit-profile{
+    left:35px;
+   }
+   .settings-btn{
+    left:230px;
+    top:350px;
    }
 }
