@@ -1,72 +1,85 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="styling/login.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    </head>
-    <body>
-        <div class="left-footer">
-            <div class="top-title">
-                <h2>
-                    Health Guard Alliance<br>
-                    Good To See You Again!
-                </h2>
-                
-                    <p>
-                         At Health Guard Alliance, we are dedicated to improving lives through<br>
-                         charity, medical research, and consultation. Join us in making<br>
-                         a difference today.
-                    </p>
-                        <div class="inputs">
-                            <input id="userName"class="username-input" type="text" placeholder="Username" required>
-                            <input id="passWord" class="password-input" type="password" placeholder="Password" required>
-                            <button class="login-btn">
-                                login
-                            </button>
-                                 
-                     <h5>
-                        Whoops I forgot my password
-                    </h5>
-                <h6 class="signup-text" id="signUp">sign up?</h6>
-                        </div>
-                        
-                     
-            </div>
+    <link rel="stylesheet" href="styling/login.css">
+    <link rel="stylesheet" href="styling/general.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body class="body-container">
+
+
+    <div class="left-section-container">
+
+        <div class="left-section-header-container">
+
+            <h3 class="tv-header">Health Guard Alliance</h3>
+
+            <h2 class="tv-subheader">Good To See You Again</h2>
+
+            <p class="tv-body">
+                At Health Guard Alliance, we are dedicated to improving lives through<br>
+                charity, medical research, and consultation. Join us in making<br>
+                a difference today.
+            </p>
 
         </div>
-        
-       
-        <script>
-            document.getElementById('signUp').addEventListener('click', function() {
-                window.location.href = 'signup.html';
-            });
-        </script>
-        <div class="right-footer-container">
-            <div class="right-footer">
-                <h1>
-                    Hello There
-                </h1>
-                <h6>
-                    At Health Guard Alliance we strive to provide<br>
-                    free health care to the community and provide<br>
-                    consultation services 
-                </h6>
-           
 
-            </div>
-            
+        <div class="left-section-input-container">
+
+            <input id="userName" class="username-input" type="text" placeholder="Username" required>
+            <input id="passWord" class="password-input" type="password" placeholder="Password" required>
+
         </div>
-        
 
-    </body>
+        <div class="checkbox-container">
 
+            <input type="checkbox" id="myCheckbox" class="checkbox">
+            <label for="myCheckbox" class="tv-checkbox-text">Remember Me</label>
+
+        </div>
+
+        <button class="login-btn">Login</button>
+
+        <div class="signup-section-container">
+
+            <h1 class="tv-signup-section-header">Dont have an account?</h1>
+            <a href="your_link_here" class="tv-signup-section-subheader">create one!</a>
+
+        </div>
+
+    </div>
+
+    <div class="right-section-container">
+        <div class="right-footer">
+            <h1 class="tv-welcome-message-header">Hello There</h1>
+            <h6 class="tv-welcome-message-body">
+                At Health Guard Alliance we strive to provide<br>
+                free health care to the community and provide<br>
+                consultation services
+            </h6>
+        </div>
+
+        <img src="images/login.jpg" class="right-section-container-bg">
+
+    </div>
+
+
+
+
+</body>
 
 
 
